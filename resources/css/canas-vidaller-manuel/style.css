@@ -1,10 +1,18 @@
-header {
+#header1 {
 	background: url(../../img/canas-vidaller-manuel/manu.png) left center no-repeat;
 	background-size: 125px 125px;
 	border: 1px solid grey;
 	box-shadow: 3px 6px grey;
 	text-align: left;
 	background-color: #8AE28D;
+}
+#header2 {
+	background: url(../../img/canas-vidaller-manuel/psur-logo.png) left center no-repeat;
+	background-size: 125px 125px;
+	border: 1px solid grey;
+	box-shadow: 3px 6px grey;
+	text-align: left;
+
 }
 #titulo-container {
 	text-align: center;
