@@ -7,17 +7,19 @@ main {
 
 footer {
 	text-align: center;
-	background: #86C91A;
+	background-color: grey;
 	height: 50px;
 }
 
 footer p {
 	line-height: 50px;
 }
-h1 {text-align: center}
-h2 {text-align: center}
+h1 {text-align: center;}
+h2 {text-align: center;background-color: blue}
 p {text-align: center;}
 ul {text-align: center}
 ol {text-align: center}
 tr {text-align: center}
-header {background-color: green}
+header {background-color: green
+}
+#imagen1 {float: left;size: 20%}
