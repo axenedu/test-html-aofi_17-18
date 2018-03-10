@@ -1,0 +1,26 @@
+body{
+margin: 0;
+font-family: Calibri;
+font-size: 14px;
+text-align: center;
+vertical-align: top;
+background: #bfb8a1 url('bg_page.gif') repeat-y 50% top;
+color: #222;
+}
+
+h1{
+font-family: Calibri;
+font-size: 32px;
+padding: 0 0 10px 15px;
+}
+
+h2{
+font-family: Calibri;
+font-size: 20px;
+padding: 0 0 0 0;
+}
+
+img{
+display:block;
+margin:auto;
+}
