@@ -1,0 +1,130 @@
+header {
+	background: url(../img/psur-logo.png) left center no-repeat;
+	background-size: 125px 125px;
+	border: 1px solid grey;
+	box-shadow: 3px 6px grey;
+	text-align: left; 
+}
+
+#icono {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+#titulo-container {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+
+
+main {
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+footer {
+	text-align: center;
+	background: #86C91A;
+	height: 50px;
+}
+
+footer p {
+	line-height: 50px;
+}
+
+main p {
+	text-align: justify;
+}
+
+div.pair-index {
+	width: auto;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+div.pair-index h2,h3 {
+	text-align: center;
+}
+
+div#general-content h3 {
+	text-align: left;
+}
+
+div.izq {
+	text-align: right;
+}
+
+div.der {
+	text-align: left;
+}
+
+#index-main {
+	text-align: center;
+}
+
+#menu {
+	width: 300px;
+	vertical-align: top;
+	min-width: 300px;
+}
+
+#menu a{
+	font-size: 12px;
+}
+
+#menu ul{
+	background: #CFCFCF;
+	padding-left: 10px;
+}
+
+#menu ul ul{
+	background: #CFCFCF;
+	padding-left: 20px;
+}
+
+#menu li{
+	list-style: none;
+}
+
+#general-content {
+	width: calc(100% - 321px);
+	padding-left: 20px;
+}
+
+#main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 712px) {
+
+	header {
+		background: url(../img/psur-logo.png) center top no-repeat;
+		background-size: 125px 125px;
+		padding-top: 120px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	#general-content {
+		width: 100%;
+		display: inline-block;
+		padding-left: 0px;
+		min-width: 300px;
+	}
+
+	main {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+}
