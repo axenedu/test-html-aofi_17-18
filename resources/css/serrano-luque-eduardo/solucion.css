@@ -1,0 +1,48 @@
+/* Estilos para el CV*/
+header {
+	background: url(../../img/serrano-luque-eduardo/gravatar.png) left center no-repeat;
+	background-size: 125px 125px;
+	background-color: #85e588;
+	border: 1px solid grey;
+	box-shadow: 3px 6px grey;
+	text-align: left; 
+}
+
+#titulo-container-CV {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+
+#CV h2{
+	background-color: #7396ce;
+	width: 80%;
+	margin: 30px auto;
+}
+
+table{
+	margin: 0 auto;
+}
+
+table, tr, td, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	width: 120px;
+}
+
+th {
+	background-color: #c8cace;
+}
+
+footer{
+	height: auto;
+	background-color: #c8cace;
+}
+
+.centrado{
+	text-align: center;
+}
